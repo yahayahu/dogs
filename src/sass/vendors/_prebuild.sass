@@ -1,0 +1,28 @@
+@import variables
+
+// =============================================================================
+// Font Size generation
+// =============================================================================
+@each $i in $fontSizeList
+    .fz-#{$i}
+        font-size: $i + px !important
+
+
+// =============================================================================
+// Colors generation
+// =============================================================================
+@each $name, $color in $colorList
+    .bgc-#{$name}
+        background-color: $color !important
+
+    .fc-#{$name}
+        color: $color !important
+
+// =============================================================================
+// Font Weight generation
+// =============================================================================
+@each $name, $weight in $fontList
+    $low: to-lower-case(#{$name})
+    @if ($low != bold and $low != regular)
+        .font-weight-#{$low}
+            font-weight: $weight !important

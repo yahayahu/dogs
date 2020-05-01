@@ -1,0 +1,131 @@
+.fz-2 {
+  font-size: 2px !important;
+}
+
+.fz-10 {
+  font-size: 10px !important;
+}
+
+.fz-12 {
+  font-size: 12px !important;
+}
+
+.fz-14 {
+  font-size: 14px !important;
+}
+
+.fz-16 {
+  font-size: 16px !important;
+}
+
+.fz-18 {
+  font-size: 18px !important;
+}
+
+.fz-20 {
+  font-size: 20px !important;
+}
+
+.fz-22 {
+  font-size: 22px !important;
+}
+
+.fz-26 {
+  font-size: 26px !important;
+}
+
+.bgc-red {
+  background-color: #dc3545 !important;
+}
+
+.fc-red {
+  color: #dc3545 !important;
+}
+
+.font-weight-black {
+  font-weight: 900 !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.td-none {
+  text-decoration: none !important;
+}
+
+.td-underline {
+  text-decoration: underline !important;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.list-clear {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.shadow-none {
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.btn-clear {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.clip {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.through {
+  text-decoration: line-through;
+  text-decoration-color: #d33838;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.img-fill {
+  object-fit: fill;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.maw-auto {
+  max-width: 100% !important;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+/*# sourceMappingURL=main.css.map */

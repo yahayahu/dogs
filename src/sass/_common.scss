@@ -1,0 +1,14 @@
+@import "vendors/functions";
+
+
+body {
+    min-height:     100vh;
+    min-width:      320px;
+    display:        flex;
+    flex-direction: column;
+}
+
+
+button:focus {
+    outline: none !important;
+}

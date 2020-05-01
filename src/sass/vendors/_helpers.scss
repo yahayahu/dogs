@@ -1,0 +1,73 @@
+.td-none {
+    text-decoration: none !important;
+}
+
+
+.td-underline {
+    text-decoration: underline !important;
+}
+
+
+.visuallyhidden {
+    border:   0;
+    clip:     rect(0 0 0 0);
+    height:   1px;
+    margin:   -1px;
+    overflow: hidden;
+    padding:  0;
+    position: absolute;
+    width:    1px;
+}
+
+
+.list-clear {
+    padding:         0;
+    margin:          0;
+    list-style-type: none;
+}
+
+
+.shadow-none {
+    box-shadow:  none;
+    text-shadow: none;
+}
+
+
+.btn-clear {
+    border:     0;
+    background: none;
+    padding:    0;
+}
+
+
+.clip {
+    white-space:   nowrap;
+    overflow:      hidden !important;
+    text-overflow: ellipsis;
+}
+
+
+.through {
+    text-decoration:       line-through;
+    text-decoration-color: #d33838;
+}
+
+
+.img-contain {
+    object-fit: contain;
+}
+
+
+.img-fill {
+    object-fit: fill;
+}
+
+
+.img-cover {
+    object-fit: cover;
+}
+
+
+.maw-auto {
+    max-width: 100% !important;
+}
