@@ -1,0 +1,25 @@
+@function scale($px, $e: true) {
+    @if $e {
+        @return $px / 2 + px;
+    }
+    @return $px / 2;
+}
+
+@function vw($px) {
+    @return scale($px, false) / 1920 * 100 + vw;
+}
+
+@function vh($px) {
+    @return scale($px, false) / 1080 * 100 + vh;
+}
+
+@function rem($px) {
+    @return scale($px, false) / 16 + rem;
+}
+
+@function em($px, $parentFontPx: null) {
+    @if $parentFontPx {
+        @return scale($px, false) / $parentFontPx + em;
+    }
+    @return scale($px, false) / 16 + em;
+}

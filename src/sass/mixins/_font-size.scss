@@ -1,0 +1,17 @@
+@import "../variables";
+
+
+@mixin rubberFont($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $diffMaxWidth: $maxWidth - 320;
+
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$diffMaxWidth}));
+
+    @media (min-width: $maxWidth + px) {
+        font-size: $pcSize + px;
+    }
+
+    @media (max-width: $minWidth + px) {
+        font-size: $mobSize + px;
+    }
+}

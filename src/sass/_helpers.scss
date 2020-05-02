@@ -1,0 +1,31 @@
+.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+.list-clear {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.btn-clear {
+    border: 0;
+    background: none;
+    padding: 0;
+}
+
+
+.clip {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
